@@ -52,7 +52,7 @@ export default function Scene() {
                 <directionalLight intensity={3} position={[0, 3, 2]} />
                 <Environment preset="city" />
                 <Model isZooming={isZooming} mouse={mouse} />
-                <Html style={{ position: "absolute", left: '50%', transform: 'translateX(-50%)' }} position={[0, -3, 0]}>
+                <Html style={{ position: "absolute", left: '50%', transform: 'translateX(-50%)' }} position={[0, -3.3, 0]}>
                     <button onClick={startZoom} className="hover:border-b px-2 py-1 text-sm lg:text-xl text-white text-nowrap cursor-pointer hover:scale-[1.1] transition-transform whitespace-nowrap ">
                         start your journey
                     </button>
